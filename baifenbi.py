@@ -1,0 +1,6 @@
+name = input('name:')
+age = input('age:')
+height = input('height:')
+#msg = "wo:%s age:%s shengao:$s" %(name,age,height)
+msg = "name:%s age:%s height:%s" %(name,age,height)
+print(msg)
