@@ -1,6 +1,9 @@
 #通过反射
 #对象名 获取对象属性 普通方法
 #类名
+#反射是用字符串类型的名字去操作变量
+#反射的四个方法：hasattr,getattr setattr delattr
+
 
 #普通方法 self
 #静态方法 @staticmethod
