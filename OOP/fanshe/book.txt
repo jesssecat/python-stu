@@ -1,0 +1,11 @@
+#通过反射
+#对象名 获取对象属性 普通方法
+#类名
+
+#普通方法 self
+#静态方法 @staticmethod
+#类方法 @classmethod
+#属性方法 @property
+
+#继承
+#封装
