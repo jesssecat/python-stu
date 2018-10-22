@@ -1,0 +1,14 @@
+Mon, 22 Oct 2018 17:03:27 2-demo.py[line:8] DEBUG debug message
+Mon, 22 Oct 2018 17:03:27 2-demo.py[line:9] INFO info message
+Mon, 22 Oct 2018 17:03:27 2-demo.py[line:10] WARNING warning message
+Mon, 22 Oct 2018 17:03:27 2-demo.py[line:11] ERROR error message
+Mon, 22 Oct 2018 17:03:27 2-demo.py[line:12] CRITICAL critical message
+2018-10-22 17:05:10,335 - root - WARNING - logger warning message
+2018-10-22 17:05:10,335 - root - ERROR - logger error message
+2018-10-22 17:05:10,335 - root - CRITICAL - logger critical message
+2018-10-22 17:05:20,817 - root - WARNING - logger warning message
+2018-10-22 17:05:20,817 - root - ERROR - logger error message
+2018-10-22 17:05:20,817 - root - CRITICAL - logger critical message
+2018-10-22 17:05:22,325 - root - WARNING - logger warning message
+2018-10-22 17:05:22,325 - root - ERROR - logger error message
+2018-10-22 17:05:22,325 - root - CRITICAL - logger critical message
