@@ -8,6 +8,6 @@ def func(sem,a,b):
 	print(a+b)
 	sem.release()
 sem = Semaphore(4)
-for i in range(50):
+for i in range(20):
 	t = Thread(target=func,args=(sem,i,i+5))
 	t.start()
