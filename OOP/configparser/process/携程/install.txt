@@ -1,2 +1,6 @@
 pip3 install gevent
 pip3 install greenlet
+
+多线程被弱化了
+协程在一个线程上提供cpu的利用率
+协程相比对于多线程的优势，切换效率更快
