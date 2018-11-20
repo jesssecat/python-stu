@@ -21,5 +21,6 @@ while True:
 				con.send(b'byebye')
 			except BlockingIOError:pass
 		for con in del_conn:
+			con.close()
 			conn_l.remove(con)
 		del_conn.clear()
