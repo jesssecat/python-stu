@@ -1,1 +1,27 @@
 pip3 install pymysql -i https://pypi.douban.com/simple
+
+慢日志查询：
+mysql> show variables like '%query%';
++------------------------------+-------------------------------+
+| Variable_name                | Value                         |
++------------------------------+-------------------------------+
+| binlog_rows_query_log_events | OFF                           |
+| ft_query_expansion_limit     | 20                            |
+| have_query_cache             | YES                           |
+| long_query_time              | 10.000000 #大于10s的记录下来  |
+| query_alloc_block_size       | 8192                          |
+| query_cache_limit            | 1048576                       |
+| query_cache_min_res_unit     | 4096                          |
+| query_cache_size             | 1048576                       |
+| query_cache_type             | OFF                           |
+| query_cache_wlock_invalidate | OFF                           |
+| query_prealloc_size          | 8192                          |
+| slow_query_log               | OFF    #默认是关闭的          |
+| slow_query_log_file          | /var/lib/mysql/node3-slow.log |#日志文件路径
++------------------------------+-------------------------------+
+
+开启：
+mysql> set global slow_query_log=ON;
+Query OK, 0 rows affected (0.01 sec)
+
+
